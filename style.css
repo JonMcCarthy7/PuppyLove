@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 70em;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.top {
+  background-image: url("./Photos/bg.jpg");
+  height: 30em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow: 1;
+}
